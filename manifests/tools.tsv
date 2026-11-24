@@ -1,0 +1,3 @@
+name	kind	source	revision
+llvm	git	https://github.com/mmix-pc/llvm-project.git	1bdca5d2c555fdb6c1b4e48fc1d4f192fd14c85a
+qemu	git	https://github.com/mmix-pc/qemu.git	baaa1eae8f1ab7534e90a4751852bf609b4f7537
