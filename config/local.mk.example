@@ -1,0 +1,13 @@
+# Copy to config/local.mk to consume existing read-only inputs.
+# LLVM_PREFIX defaults to $(BUILD_DIR)/install/llvm.
+# LLVM_PREFIX := /path/to/external/mmix-sdk
+# QEMU_PREFIX defaults to $(BUILD_DIR)/install/qemu.
+# QEMU_PREFIX := /path/to/external/qemu
+# LINUX_SOURCE defaults to $(BUILD_DIR)/sources/linux.
+# LINUX_SOURCE := /path/to/external/mmix-linux
+
+# Uncomment to build from a read-only project tree.
+# BUILD_DIR := $(HOME)/workspaces/mmix-lfs/build
+# OUT_DIR := $(HOME)/workspaces/mmix-lfs/out
+# TMP_DIR := $(HOME)/workspaces/mmix-lfs/tmp
+# DOWNLOADS_DIR := $(HOME)/.cache/mmix-lfs/downloads
